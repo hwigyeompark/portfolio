@@ -1,0 +1,21 @@
+html,body{
+  padding: 0;
+  margin: 0;
+}
+.wrap{
+  width: 100%;
+  overflow: hidden;
+}
+#intro{
+  width: 100%;
+  height: 1000px;
+  background: url("image/introBackground.JPG");
+  background-position: center;
+  background-size: cover;
+  & > div{
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    opacity: .6;
+  }
+}
