@@ -25,7 +25,7 @@ html, body{
   }
   h1{
     text-align: center;
-    padding-top: 7%;
+    padding-top: 5%;
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 2.8rem;
     font-weight: lighter;
@@ -43,7 +43,19 @@ html, body{
     height: $height;
   }
   img{
-    margin-top: 2%;
-    @include imagebox(35%, 35%);
+    margin-top: 4%;
+    @include imagebox(25%, 25%);
+  }
+  h2{
+    text-align: center;
+    font-size: 1.2rem;
+    color: #ffffff;
+    font-weight: lighter;
+    opacity: .7;
+  }
+  h2 > img{
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-top: -0.1%;
   }
 }
