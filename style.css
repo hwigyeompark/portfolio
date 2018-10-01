@@ -19,11 +19,15 @@
     height: 100%;
     background: #ffffff;
     opacity: .5; }
-  #intro h1, #intro span {
+  #intro h1 {
     text-align: center;
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 3em; }
   #intro span {
-    font-size: 3.5em; }
+    font-size: 1.3em; }
+  #intro img {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto; }
 
 /*# sourceMappingURL=style.css.map */
