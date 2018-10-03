@@ -47,23 +47,39 @@ html, body {
     height: 1.2rem;
     margin-top: -0.1%; }
 
-.contents {
+.contents, #about {
   width: 100%;
+  height: 100%;
   flex-wrap: wrap;
   overflow: hidden; }
 
-#about h1 {
-  font-size: 2rem;
-  text-align: center; }
-#about > div {
-  width: 100%;
-  height: auto; }
-#about p, #about span {
-  text-align: center;
-  font-size: 1.2rem; }
-#about #resume-btn {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%; }
+#about {
+  padding: 10%; }
+  #about h1 {
+    font-size: 5rem;
+    text-align: center;
+    color: #228489; }
+  #about #my-name {
+    font-size: 1.2rem;
+    color: #555555; }
+  #about > div {
+    width: 100%;
+    height: auto;
+    margin-top: 5%; }
+  #about p, #about span {
+    text-align: center;
+    font-size: 2rem;
+    color: #333333; }
+  #about span {
+    display: inherit; }
+  #about #resume-btn {
+    width: 20%;
+    padding: 1.5%;
+    margin-top: 1%;
+    color: #ffffff;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 15px;
+    background: #F97D7D; }
 
 /*# sourceMappingURL=style.css.map */

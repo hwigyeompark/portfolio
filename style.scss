@@ -62,33 +62,47 @@ html, body{
 
 .contents{
   width: 100%;
+  height: 100%;
   flex-wrap: wrap;
   overflow: hidden;
 }
 #about{
+  @extend .contents;
+  padding: 10%;
   h1{
-    font-size: 2rem;
+    font-size: 5rem;
     text-align: center;
+    color: #228489;
+  }
+  #my-name{
+    font-size: 1.2rem;
+    color: #555555;
   }
   & > div{
     width:100%;
     height: auto;
+    margin-top: 5%;
   }
   %mentStyle{
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 2rem;
+    color: #333333;
   }
   p{
     @extend %mentStyle;
   }
   span{
+    display: inherit;
     @extend %mentStyle;
   }
   #resume-btn{
+    width: 20%;
+    padding: 1.5%;
+    margin-top: 1%;
+    color: #ffffff;
+    font-size: 1.2rem;
     border: none;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background: #228489;
+    border-radius: 15px;
+    background:#F97D7D;
   }
 }
