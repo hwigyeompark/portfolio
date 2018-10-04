@@ -59,9 +59,6 @@ html, body {
     font-size: 5rem;
     text-align: center;
     color: #228489; }
-  #about #my-name {
-    font-size: 1.2rem;
-    color: #555555; }
   #about > div {
     width: 100%;
     height: auto;
