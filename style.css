@@ -47,7 +47,7 @@ html, body {
     height: 1.2rem;
     margin-top: -0.1%; }
 
-.contents, #about {
+.contents, #about, #projects {
   width: 100%;
   height: 100%;
   flex-wrap: wrap;
@@ -58,7 +58,8 @@ html, body {
   #about h1 {
     font-size: 5rem;
     text-align: center;
-    color: #228489; }
+    color: #333333;
+    /*    color: #228489;*/ }
   #about > div {
     width: 100%;
     height: auto;
@@ -78,5 +79,12 @@ html, body {
     border: none;
     border-radius: 15px;
     background: #F97D7D; }
+
+#projects {
+  padding: 10%; }
+  #projects .flex-wrap {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center; }
 
 /*# sourceMappingURL=style.css.map */
