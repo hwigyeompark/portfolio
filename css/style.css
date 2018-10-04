@@ -13,7 +13,7 @@ html, body {
   overflow: hidden; }
 
 #intro {
-  background: url("image/introBackground.png");
+  background: url("../image/introBackground.png");
   background-position: center;
   background-size: cover;
   background-attachment: fixed; }
@@ -82,9 +82,9 @@ html, body {
 
 #projects {
   padding: 10%; }
-  #projects .flex-wrap {
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: center; }
+  #projects .grid-wrap {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px; }
 
 /*# sourceMappingURL=style.css.map */
